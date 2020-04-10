@@ -16,6 +16,19 @@
 		1195CA5F243E15070075914C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1195CA5D243E15070075914C /* LaunchScreen.storyboard */; };
 		1195CA6A243E15080075914C /* BoardingIntroduceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA69243E15080075914C /* BoardingIntroduceTests.swift */; };
 		1195CA75243E15080075914C /* BoardingIntroduceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA74243E15080075914C /* BoardingIntroduceUITests.swift */; };
+		1195CA85243E186F0075914C /* GestureControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA84243E186F0075914C /* GestureControl.swift */; };
+		1195CA8A243EA46F0075914C /* Configuring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA89243EA46F0075914C /* Configuring.swift */; };
+		1195CA8C243EA4E90075914C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA8B243EA4E90075914C /* Constants.swift */; };
+		1195CA90243EA5700075914C /* FillAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA8F243EA5700075914C /* FillAnimationView.swift */; };
+		1195CA94243EB83A0075914C /* BoardContentViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA93243EB83A0075914C /* BoardContentViewItem.swift */; };
+		1195CA96243ED43E0075914C /* BoardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA95243ED43D0075914C /* BoardContentView.swift */; };
+		1195CA99243ED4F20075914C /* BoardingItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA98243ED4F20075914C /* BoardingItemModel.swift */; };
+		1195CA9D243EF9F40075914C /* PageViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA9C243EF9F40075914C /* PageViewItem.swift */; };
+		1195CAA0243F073B0075914C /* PageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CA9F243F073B0075914C /* PageContainer.swift */; };
+		1195CAA2243F22540075914C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CAA1243F22540075914C /* PageView.swift */; };
+		1195CAA5243F70140075914C /* PaperOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CAA4243F70140075914C /* PaperOnboarding.swift */; };
+		1195CAA7243F77980075914C /* PaperOnboardingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CAA6243F77980075914C /* PaperOnboardingDelegate.swift */; };
+		1195CAA9243F77B00075914C /* PaperOnboardingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1195CAA8243F77B00075914C /* PaperOnboardingDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		1195CA70243E15080075914C /* BoardingIntroduceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoardingIntroduceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1195CA74243E15080075914C /* BoardingIntroduceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingIntroduceUITests.swift; sourceTree = "<group>"; };
 		1195CA76243E15080075914C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1195CA84243E186F0075914C /* GestureControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureControl.swift; sourceTree = "<group>"; };
+		1195CA89243EA46F0075914C /* Configuring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuring.swift; sourceTree = "<group>"; };
+		1195CA8B243EA4E90075914C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1195CA8F243EA5700075914C /* FillAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillAnimationView.swift; sourceTree = "<group>"; };
+		1195CA93243EB83A0075914C /* BoardContentViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardContentViewItem.swift; sourceTree = "<group>"; };
+		1195CA95243ED43D0075914C /* BoardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardContentView.swift; sourceTree = "<group>"; };
+		1195CA98243ED4F20075914C /* BoardingItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingItemModel.swift; sourceTree = "<group>"; };
+		1195CA9C243EF9F40075914C /* PageViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewItem.swift; sourceTree = "<group>"; };
+		1195CA9F243F073B0075914C /* PageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageContainer.swift; sourceTree = "<group>"; };
+		1195CAA1243F22540075914C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		1195CAA4243F70140075914C /* PaperOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboarding.swift; sourceTree = "<group>"; };
+		1195CAA6243F77980075914C /* PaperOnboardingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingDelegate.swift; sourceTree = "<group>"; };
+		1195CAA8243F77B00075914C /* PaperOnboardingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperOnboardingDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +127,7 @@
 		1195CA4E243E14F60075914C /* BoardingIntroduce */ = {
 			isa = PBXGroup;
 			children = (
+				1195CA82243E18490075914C /* Boarding */,
 				1195CA4F243E14F60075914C /* AppDelegate.swift */,
 				1195CA51243E14F60075914C /* SceneDelegate.swift */,
 				1195CA53243E14F60075914C /* ViewController.swift */,
@@ -129,6 +156,106 @@
 				1195CA76243E15080075914C /* Info.plist */,
 			);
 			path = BoardingIntroduceUITests;
+			sourceTree = "<group>";
+		};
+		1195CA82243E18490075914C /* Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				1195CAA3243F6FF80075914C /* MainBoard */,
+				1195CA9A243EF2800075914C /* PageView */,
+				1195CA97243ED4DB0075914C /* Model */,
+				1195CA91243EB21F0075914C /* ContentView */,
+				1195CA8E243EA55B0075914C /* FillAnimationView */,
+				1195CA86243E1B180075914C /* Helpers */,
+				1195CA83243E185C0075914C /* Gesture */,
+			);
+			path = Boarding;
+			sourceTree = "<group>";
+		};
+		1195CA83243E185C0075914C /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA84243E186F0075914C /* GestureControl.swift */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		1195CA86243E1B180075914C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA89243EA46F0075914C /* Configuring.swift */,
+				1195CA8B243EA4E90075914C /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1195CA8E243EA55B0075914C /* FillAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA8F243EA5700075914C /* FillAnimationView.swift */,
+			);
+			path = FillAnimationView;
+			sourceTree = "<group>";
+		};
+		1195CA91243EB21F0075914C /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA92243EB22A0075914C /* Item */,
+				1195CA95243ED43D0075914C /* BoardContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		1195CA92243EB22A0075914C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA93243EB83A0075914C /* BoardContentViewItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		1195CA97243ED4DB0075914C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA98243ED4F20075914C /* BoardingItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1195CA9A243EF2800075914C /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA9E243F07280075914C /* Container */,
+				1195CA9B243EF9DA0075914C /* Item */,
+				1195CAA1243F22540075914C /* PageView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		1195CA9B243EF9DA0075914C /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA9C243EF9F40075914C /* PageViewItem.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		1195CA9E243F07280075914C /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				1195CA9F243F073B0075914C /* PageContainer.swift */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		1195CAA3243F6FF80075914C /* MainBoard */ = {
+			isa = PBXGroup;
+			children = (
+				1195CAA4243F70140075914C /* PaperOnboarding.swift */,
+				1195CAA6243F77980075914C /* PaperOnboardingDelegate.swift */,
+				1195CAA8243F77B00075914C /* PaperOnboardingDataSource.swift */,
+			);
+			path = MainBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +391,21 @@
 			files = (
 				1195CA54243E14F60075914C /* ViewController.swift in Sources */,
 				1195CA5A243E14F60075914C /* BoardingIntroduce.xcdatamodeld in Sources */,
+				1195CA8A243EA46F0075914C /* Configuring.swift in Sources */,
+				1195CA85243E186F0075914C /* GestureControl.swift in Sources */,
+				1195CA9D243EF9F40075914C /* PageViewItem.swift in Sources */,
+				1195CA90243EA5700075914C /* FillAnimationView.swift in Sources */,
+				1195CA96243ED43E0075914C /* BoardContentView.swift in Sources */,
+				1195CAA0243F073B0075914C /* PageContainer.swift in Sources */,
+				1195CAA5243F70140075914C /* PaperOnboarding.swift in Sources */,
+				1195CA99243ED4F20075914C /* BoardingItemModel.swift in Sources */,
 				1195CA50243E14F60075914C /* AppDelegate.swift in Sources */,
 				1195CA52243E14F60075914C /* SceneDelegate.swift in Sources */,
+				1195CAA9243F77B00075914C /* PaperOnboardingDataSource.swift in Sources */,
+				1195CA8C243EA4E90075914C /* Constants.swift in Sources */,
+				1195CA94243EB83A0075914C /* BoardContentViewItem.swift in Sources */,
+				1195CAA7243F77980075914C /* PaperOnboardingDelegate.swift in Sources */,
+				1195CAA2243F22540075914C /* PageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
